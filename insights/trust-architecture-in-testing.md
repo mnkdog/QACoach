@@ -4,11 +4,11 @@
 
 The software testing industry has a problem. We've become so focused on promoting agile, collaborative testing practices that we've forgotten half the software development world exists in fundamentally different contexts. While Netflix deploys thousands of times per day with embedded quality practices, somewhere else a team is painstakingly validating that a new SAP integration won't crash the financial reporting system that processes millions in transactions daily.
 
-Both approaches are not just valid—they're essential. But they exist in completely different trust architectures, and understanding this distinction is crucial for choosing effective testing strategies.
+Both approaches are not just valid - they're essential. But they exist in completely different trust architectures, and understanding this distinction is crucial for choosing effective testing strategies.
 
 ## The Trust Divide in Software Testing
 
-After observing testing transformations across financial services, healthcare, utilities, and technology companies, I've identified a fundamental pattern: **testing methodologies must align with organisational trust levels to be effective**. The choice between embedded collaborative testing and formal validation processes isn't purely technical—it's a direct reflection of how much faith organisations place in their teams, processes, and external partners.
+After observing testing transformations across financial services, healthcare, utilities, and technology companies, I've identified a fundamental pattern: **testing methodologies must align with organisational trust levels to be effective**. The choice between embedded collaborative testing and formal validation processes isn't purely technical - it's a direct reflection of how much faith organisations place in their teams, processes, and external partners.
 
 This creates two distinct testing worlds:
 
@@ -16,13 +16,13 @@ This creates two distinct testing worlds:
 
 **Low-trust environments** require external validation, comprehensive documentation, formal approval processes, and clear separation of duties. Testing provides independent verification and creates audit trails for compliance or contractual obligations.
 
-Neither approach is inherently superior—they serve fundamentally different organisational needs and constraints.
+Neither approach is inherently superior - they serve fundamentally different organisational needs and constraints.
 
 ## How Trust Shapes Testing Across SDLCs
 
 ### Waterfall/V-Model: Built for Low-Trust Validation
 
-The Waterfall and V-Model approaches emerged from engineering disciplines where mistakes carry severe consequences—aerospace, defence, nuclear power. These methodologies assume that **comprehensive upfront planning and formal verification are necessary** because trust in informal processes is insufficient given the stakes.
+The Waterfall and V-Model approaches emerged from engineering disciplines where mistakes carry severe consequences - aerospace, defence, nuclear power. These methodologies assume that **comprehensive upfront planning and formal verification are necessary** because trust in informal processes is insufficient given the stakes.
 
 **Testing characteristics:**
 - Distinct testing phases with formal entry/exit criteria
@@ -54,7 +54,7 @@ Agile methodologies fundamentally assume high organisational trust. The Agile Ma
 
 ### DevOps/CI-CD: Maximum Trust in Automation and Process
 
-DevOps represents the highest-trust approach to software delivery, where organisations trust both their people and their automated systems to maintain quality while maximising delivery speed. Netflix's chaos engineering—randomly terminating production services to test resilience—exemplifies this extreme trust model.
+DevOps represents the highest-trust approach to software delivery, where organisations trust both their people and their automated systems to maintain quality while maximising delivery speed. Netflix's chaos engineering - randomly terminating production services to test resilience - exemplifies this extreme trust model.
 
 **Testing characteristics:**
 - Automated testing integrated into deployment pipelines
@@ -66,11 +66,11 @@ DevOps represents the highest-trust approach to software delivery, where organis
 
 **When this works:** Cloud-native architectures, organisations with strong engineering cultures, products where rapid iteration provides competitive advantage, teams with extensive automation capabilities, environments where failure is recoverable.
 
-**Trust implications:** This model requires unprecedented trust—in automated testing to catch critical issues, in monitoring systems to detect problems quickly, in team members to respond appropriately to incidents, and in the organisation's ability to learn from failures without blame.
+**Trust implications:** This model requires unprecedented trust - in automated testing to catch critical issues, in monitoring systems to detect problems quickly, in team members to respond appropriately to incidents, and in the organisation's ability to learn from failures without blame.
 
 ### Spiral/Iterative: Balanced Trust with Risk Management
 
-The Spiral model and other iterative approaches represent a middle ground—higher trust than Waterfall but with more formal risk management than pure Agile. These approaches acknowledge that trust must be built progressively through demonstrated competence and successful delivery.
+The Spiral model and other iterative approaches represent a middle ground - higher trust than Waterfall but with more formal risk management than pure Agile. These approaches acknowledge that trust must be built progressively through demonstrated competence and successful delivery.
 
 **Testing characteristics:**
 - Risk-driven testing priorities with formal risk assessment
@@ -86,7 +86,7 @@ The Spiral model and other iterative approaches represent a middle ground—high
 
 ### Lean: Trust in Continuous Improvement
 
-Lean software development emphasises eliminating waste while maintaining quality—requiring trust that teams will identify and address inefficiencies without compromising essential validation activities.
+Lean software development emphasises eliminating waste while maintaining quality - requiring trust that teams will identify and address inefficiencies without compromising essential validation activities.
 
 **Testing characteristics:**
 - Value stream mapping to identify testing bottlenecks
@@ -145,7 +145,7 @@ Consider a typical enterprise integration scenario:
 - **Risk-based testing** prioritising scenarios that could cause business disruption
 - **Extensive regression testing** protecting existing functionality during integration
 
-This isn't bureaucratic overhead—it's essential risk management in environments where informal coordination cannot be trusted to prevent catastrophic failures.
+This isn't bureaucratic overhead - it's essential risk management in environments where informal coordination cannot be trusted to prevent catastrophic failures.
 
 ## The Industry's Agile Bias Creates Critical Gaps
 
@@ -211,11 +211,11 @@ Current testing discourse suffers from a profound bias toward agile product team
 
 ## The Pull Request Parallel: Trust in Code Review Practices
 
-The relationship between trust and testing mirrors patterns in code review practices. High-trust teams naturally gravitate toward pair programming—real-time collaborative coding with continuous peer review and shared responsibility. This provides superior quality outcomes when team members trust each other's technical judgment and feel safe providing immediate feedback.
+The relationship between trust and testing mirrors patterns in code review practices. High-trust teams naturally gravitate toward pair programming - real-time collaborative coding with continuous peer review and shared responsibility. This provides superior quality outcomes when team members trust each other's technical judgment and feel safe providing immediate feedback.
 
 Lower-trust environments implement formal pull request processes with designated reviewers, written feedback, and documented approval. This creates necessary oversight when teams haven't established confidence in each other's capabilities or when external accountability is required.
 
-Neither approach is universally superior—they serve different trust contexts and organisational needs.
+Neither approach is universally superior - they serve different trust contexts and organisational needs.
 
 ## Building Trust Without Compromising Quality
 
@@ -239,7 +239,7 @@ The software testing industry must acknowledge that both high-trust collaborativ
 - Organisations building trust progressively through successful delivery
 - Hybrid approaches that balance speed with necessary oversight
 
-The missing half of the testing conversation isn't about better tools or techniques—it's about understanding trust dynamics and choosing approaches that align with organisational reality. Quality outcomes improve when testing strategies match trust architecture, not when organisations attempt to impose practices designed for different contexts.
+The missing half of the testing conversation isn't about better tools or techniques - it's about understanding trust dynamics and choosing approaches that align with organisational reality. Quality outcomes improve when testing strategies match trust architecture, not when organisations attempt to impose practices designed for different contexts.
 
 The future of effective testing lies not in universal best practices, but in contextual intelligence that helps organisations understand their trust dynamics and select approaches that optimise quality within their specific constraints and capabilities.
 
