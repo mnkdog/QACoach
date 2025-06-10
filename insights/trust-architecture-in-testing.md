@@ -221,11 +221,11 @@ Neither approach is universally superior - they serve different trust contexts a
 
 For organisations seeking to evolve from low-trust to higher-trust approaches, the transition must be gradual and evidence-based:
 
-1. **Start with pilot projects** that demonstrate collaborative approaches without risking critical systems
-2. **Invest in psychological safety** through leadership behaviour change and cultural initiatives
-3. **Build competence before reducing oversight** by developing team capabilities and shared practices
-4. **Measure outcomes rather than activities** to demonstrate that collaborative approaches deliver results
-5. **Maintain necessary formal processes** for compliance and risk management while evolving others
+ - 1. **Start with pilot projects** that demonstrate collaborative approaches without risking critical systems
+ - 2. **Invest in psychological safety** through leadership behaviour change and cultural initiatives
+ - 3. **Build competence before reducing oversight** by developing team capabilities and shared practices
+ - 4. **Measure outcomes rather than activities** to demonstrate that collaborative approaches deliver results
+ - 5. **Maintain necessary formal processes** for compliance and risk management while evolving others
 
 The goal isn't to transform every organisation into Netflix, but to help each organisation optimise quality practices for their specific context and constraints.
 
